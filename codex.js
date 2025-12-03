@@ -5,4 +5,9 @@ function start() {
     ctx.imageSmoothingEnabled = false;  // not fuzzy yay
     const resize = canvas.width/360;
     ctx.scale(resize, resize);      // scales to window nicely
+
+    game();
+}
+function game() {
+    
 }
